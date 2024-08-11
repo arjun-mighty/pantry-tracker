@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(rgb(91, 144, 166), rgb(162, 184, 91));
+  color: #f1f1f1;
+}
+
+html, body, #__next {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
